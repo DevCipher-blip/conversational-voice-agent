@@ -54,3 +54,12 @@ htmlcov/
 # Temporary files
 *.tmp
 *.bak
+
+# Local environments and generated files
+.venv/
+project_venv/
+node_modules/
+*.pyc
+.env.*
+!.env.example
+!.env.sample
